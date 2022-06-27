@@ -7,16 +7,22 @@ h2 {
     font-size: 50px;
 }
 
-.World {
+.orange_color {
     color: orange;
 }
 
+section {
+    padding: 5%;
+}
+
+/*First Banner*/
 .top {
     display: flex;
     background-image: url(./BG/top-banner.png);
     background-repeat: no-repeat;
 }
 
+/*Second Banner*/
 .middle {
     display: flex;
     background-image: url(./BG/dream-bg.png);
@@ -24,10 +30,31 @@ h2 {
     background-position: right;
 }
 
+.Experiences {
+    display: flex;
+    margin: 5%;
+    background-image: url(./BG/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+/*My world
+Dream Big*/
 .text {
     width: 50%;
-    margin-left: 50px;
 }
+
+/*Full Stack Web Developer
+Junior Web Developer*/
+.text1 {
+    width: 50%;
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
 
 .bg {
     width: 50%;
@@ -38,6 +65,7 @@ h2 {
     width: 90%;
 }
 
+/*Hire Me/ Download Resume*/
 .link_button {
     text-decoration: none;
     background-image: linear-gradient(tomato, orange);
@@ -47,6 +75,14 @@ h2 {
     border-radius: 5px;
 }
 
-section {
-    padding: 5%;
+#jwb {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#fswb {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
 }
